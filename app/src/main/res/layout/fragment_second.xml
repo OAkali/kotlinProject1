@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/w"
+    tools:context=".SecondFragment">
+
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:background="@color/i"
+        android:layout_gravity="center"
+        android:id="@+id/iv_i"
+        android:rotationX="16"
+        />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="@color/h"
+        android:id="@+id/iv_h"
+        android:rotationX="-6"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="1"
+        android:textColor="@color/i"
+        android:textSize="180sp" />
+
+</FrameLayout>
